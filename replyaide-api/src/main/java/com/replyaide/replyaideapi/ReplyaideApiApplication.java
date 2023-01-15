@@ -11,5 +11,4 @@ public class ReplyaideApiApplication {
   public static void main(String[] args) {
     SpringApplication.run(ReplyaideApiApplication.class, args);
   }
-
 }

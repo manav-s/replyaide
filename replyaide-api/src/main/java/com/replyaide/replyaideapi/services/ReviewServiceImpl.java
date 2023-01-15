@@ -43,13 +43,17 @@ public class ReviewServiceImpl implements ReviewService {
   @Transactional
   public ReviewEntity createReview(Review review) throws Exception {
 
+    if (review.getProduct_type().isEmpty() || review.getFeedback().isEmpty()) {
+      return new ReviewEntity();
+    }
+
     // Set the request headers
     HttpHeaders headers = new HttpHeaders();
-    String apiKey = "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";
+    String apiKey = System.getenv("API_KEY");
     headers.setBearerAuth(apiKey);
     headers.setContentType(MediaType.APPLICATION_JSON);
 
-    String str1 = "Generate a response less than 20 words to the following review of a ";
+    String str1 = "Generate a reply as a business to the following customer's review of a ";
     StringBuilder sb = new StringBuilder();
 
     sb.append(str1);
