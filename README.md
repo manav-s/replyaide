@@ -2,7 +2,7 @@
 
 ![alt_text](images/image1.png "image_tooltip")
 
-## Welcome to the Replyaide - automatic customer reply generator. This software is designed to help businesses quickly and efficiently respond to customer inquiries.
+### Welcome to the Replyaide - automatic customer reply generator. This software is designed to help businesses quickly and efficiently respond to customer inquiries.
 
 ![alt_text](images/image2.png "image_tooltip")
 
