@@ -10,15 +10,15 @@
 
 ![alt_text](images/image3.png "image_tooltip")
 
-## Getting Started
+## Getting Started with the Frontend
 
 1. Clone the repository to your local machine using the following command:
 
-git clone https://github.com/yourusername/automatic-customer-reply-generator.git
+git clone https://github.com/manav-s/replyaide-dot-com.git
 
 2. Navigate to the cloned repository using the following command:
 
-cd automatic-customer-reply-generator
+cd replyaide-dot-com
 
 3. Install the necessary dependencies using the following command:
 
@@ -28,7 +28,7 @@ npm install
 
 npm start
 
-5. The app will now be running on [http://localhost:3000](http://localhost:3000) in the browser.
+5. The app will now be running on [http://localhost:3000](http://localhost:3000) in the browser. You will also need to provide your own firebase.js file with your own configuration.
 
 ## Using the Software
 
@@ -42,6 +42,17 @@ npm start
 - The software is currently in the development stage, so it may have bugs and limitations.
 
 Please contact our support team if you have any questions or issues.
+
+
+## Getting Started with the Backend
+
+1. Navigate to the api folder in your favorite IDE
+2. Start ReplyaideApiApplication
+
+
+## You may have to adjust your port settings to connect both together.
+
+
 
 
 
