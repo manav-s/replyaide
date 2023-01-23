@@ -4,6 +4,8 @@
 
 ### Welcome to the Replyaide - automatic customer reply generator. This software is designed to help businesses quickly and efficiently respond to customer inquiries.
 
+#### The website is hosted via Netlify and Heroku on replyaide.com
+
 ![alt_text](images/image2.png "image_tooltip")
 
 ![alt_text](images/image3.png "image_tooltip")
