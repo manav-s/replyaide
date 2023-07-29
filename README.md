@@ -46,9 +46,9 @@ Please contact our support team if you have any questions or issues.
 
 ## Getting Started with the Backend
 
-1. Navigate to the api folder in your favorite IDE
-2. In the service implementation, insert your own ChatGPT api key.
-3. Start ReplyaideApiApplication!
+1. Navigate to the folder in your favorite IDE
+2. Run 'npm install'
+3. Run 'node server.js'
 
 
 ## Note: You may have to adjust your port and cross-origin settings to connect both together.
