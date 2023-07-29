@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SERVER_API_BASE_URL = "http://localhost:5000"; // Replace with your server URL
+const SERVER_API_BASE_URL = "https://testreply.netlify.app/.netlify/functions/api";
 
 class ReviewService {
   saveReview(user, review, product_type) {
